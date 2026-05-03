@@ -91,15 +91,15 @@ function Header() {
 
 function VaultVisual() {
   return (
-    <div className="relative min-h-[480px] overflow-hidden border border-white/10 bg-[#080a0f] p-5 shadow-2xl shadow-black/40">
+    <div className="relative min-h-[480px] overflow-hidden border border-white/10 bg-[#080a0f]/70 p-5 shadow-2xl shadow-black/40 backdrop-blur-sm">
       <NextImage
-        alt="Boardroom Vault art direction for Digital Energy Holdings"
-        className="absolute inset-0 object-cover opacity-30"
+        alt="Command Center art direction for Digital Energy Holdings"
+        className="absolute inset-0 object-cover opacity-40"
         fill
         priority
-        src="/brand/boardroom-vault-art-direction.png"
+        src="/brand/command-center-art-direction.png"
       />
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_35%,rgba(214,178,94,0.24),transparent_28%),radial-gradient(circle_at_76%_18%,rgba(34,211,238,0.14),transparent_24%),linear-gradient(135deg,rgba(255,255,255,0.08),transparent_38%)]" />
+      <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_35%,rgba(214,178,94,0.28),transparent_28%),radial-gradient(circle_at_76%_18%,rgba(34,211,238,0.18),transparent_24%),linear-gradient(135deg,rgba(0,0,0,0.35),rgba(8,10,15,0.72)_55%,rgba(0,0,0,0.24))]" />
       <div className="absolute inset-5 border border-[#d6b25e]/20" />
       <div className="relative grid h-full min-h-[440px] place-items-center">
         <div className="relative grid size-72 place-items-center rounded-full border border-[#d6b25e]/30 bg-black/30">
@@ -128,17 +128,26 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-[#050608] text-white">
       <Header />
-      <section className="relative overflow-hidden px-4 pb-20 pt-32 sm:px-6 lg:px-8 lg:pb-28 lg:pt-40">
-        <div className="absolute inset-0 bg-[linear-gradient(120deg,rgba(214,178,94,0.12),transparent_34%),radial-gradient(circle_at_85%_12%,rgba(34,211,238,0.12),transparent_25%)]" />
+      <section className="relative min-h-screen overflow-hidden px-4 pb-20 pt-32 sm:px-6 lg:px-8 lg:pb-28 lg:pt-40">
+        <NextImage
+          alt="Boardroom Vault hero art for Digital Energy Holdings"
+          className="absolute inset-0 object-cover opacity-55 sm:opacity-50"
+          fill
+          priority
+          sizes="100vw"
+          src="/brand/boardroom-vault-art-direction.png"
+        />
+        <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(5,6,8,0.96)_0%,rgba(5,6,8,0.82)_34%,rgba(5,6,8,0.46)_62%,rgba(5,6,8,0.72)_100%),linear-gradient(180deg,rgba(5,6,8,0.64),rgba(5,6,8,0.22)_46%,rgba(5,6,8,0.94)_100%)]" />
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_18%_18%,rgba(214,178,94,0.17),transparent_26%),radial-gradient(circle_at_85%_12%,rgba(34,211,238,0.13),transparent_25%)]" />
         <div className="relative mx-auto grid max-w-7xl gap-12 lg:grid-cols-[1.02fr_0.98fr] lg:items-center">
           <div>
             <p className="mb-6 inline-flex rounded border border-[#d6b25e]/30 bg-[#d6b25e]/10 px-3 py-1 text-sm text-[#f3d687]">
               Digital Energy Holdings
             </p>
-            <h1 className="max-w-4xl text-5xl font-semibold leading-tight text-white sm:text-6xl lg:text-7xl">
+            <h1 className="max-w-4xl text-5xl font-semibold leading-tight text-white sm:text-6xl lg:text-7xl" style={{ textShadow: "0 24px 70px rgba(0,0,0,0.95)" }}>
               Where compute becomes capital.
             </h1>
-            <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-300">
+            <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-100" style={{ textShadow: "0 12px 36px rgba(0,0,0,0.95)" }}>
               Digital Energy Holdings centralizes intellectual property,
               digital rights, brand systems, domains, AI workflows, contracts,
               shared services, and governed digital asset infrastructure behind
