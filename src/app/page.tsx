@@ -8,7 +8,6 @@ import {
   Database,
   FileSignature,
   KeyRound,
-  LockKeyhole,
   Network,
   RadioTower,
   ShieldCheck,
@@ -89,65 +88,31 @@ function Header() {
   );
 }
 
-function VaultVisual() {
-  return (
-    <div className="relative min-h-[480px] overflow-hidden border border-white/10 bg-[#080a0f]/70 p-5 shadow-2xl shadow-black/40 backdrop-blur-sm">
-      <NextImage
-        alt="Command Center art direction for Digital Energy Holdings"
-        className="absolute inset-0 object-cover opacity-40"
-        fill
-        priority
-        src="/brand/command-center-art-direction.png"
-      />
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_35%,rgba(214,178,94,0.28),transparent_28%),radial-gradient(circle_at_76%_18%,rgba(34,211,238,0.18),transparent_24%),linear-gradient(135deg,rgba(0,0,0,0.35),rgba(8,10,15,0.72)_55%,rgba(0,0,0,0.24))]" />
-      <div className="absolute inset-5 border border-[#d6b25e]/20" />
-      <div className="relative grid h-full min-h-[440px] place-items-center">
-        <div className="relative grid size-72 place-items-center rounded-full border border-[#d6b25e]/30 bg-black/30">
-          <div className="absolute inset-7 rounded-full border border-white/10" />
-          <div className="absolute inset-14 rounded-full border border-[#d6b25e]/30" />
-          <LockKeyhole className="size-16 text-[#f3d687]" strokeWidth={1.2} />
-          <div className="absolute -left-4 top-12 rounded border border-white/10 bg-[#0d111a]/90 px-3 py-2 text-xs text-slate-300">
-            IP registry
-          </div>
-          <div className="absolute -right-6 top-28 rounded border border-white/10 bg-[#0d111a]/90 px-3 py-2 text-xs text-slate-300">
-            AI rails
-          </div>
-          <div className="absolute bottom-11 left-2 rounded border border-white/10 bg-[#0d111a]/90 px-3 py-2 text-xs text-slate-300">
-            Contracts
-          </div>
-          <div className="absolute bottom-20 right-0 rounded border border-white/10 bg-[#0d111a]/90 px-3 py-2 text-xs text-slate-300">
-            Treasury
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-}
-
 export default function Home() {
   return (
     <main className="min-h-screen bg-[#050608] text-white">
       <Header />
-      <section className="relative min-h-screen overflow-hidden px-4 pb-20 pt-32 sm:px-6 lg:px-8 lg:pb-28 lg:pt-40">
+      <section className="relative isolate min-h-screen overflow-hidden pt-16">
         <NextImage
-          alt="Boardroom Vault hero art for Digital Energy Holdings"
-          className="absolute inset-0 object-cover opacity-55 sm:opacity-50"
+          alt=""
+          className="object-cover object-center opacity-72"
           fill
           priority
           sizes="100vw"
-          src="/brand/boardroom-vault-art-direction.png"
+          src="/brand/digital-energy-holdings-hero.png"
         />
-        <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(5,6,8,0.96)_0%,rgba(5,6,8,0.82)_34%,rgba(5,6,8,0.46)_62%,rgba(5,6,8,0.72)_100%),linear-gradient(180deg,rgba(5,6,8,0.64),rgba(5,6,8,0.22)_46%,rgba(5,6,8,0.94)_100%)]" />
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_18%_18%,rgba(214,178,94,0.17),transparent_26%),radial-gradient(circle_at_85%_12%,rgba(34,211,238,0.13),transparent_25%)]" />
-        <div className="relative mx-auto grid max-w-7xl gap-12 lg:grid-cols-[1.02fr_0.98fr] lg:items-center">
-          <div>
+        <div className="absolute inset-0 bg-[linear-gradient(90deg,#050608_0%,rgba(5,6,8,0.94)_34%,rgba(5,6,8,0.50)_70%,rgba(5,6,8,0.88)_100%)]" />
+        <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(5,6,8,0.42),rgba(5,6,8,0.18)_42%,rgba(5,6,8,0.96)_100%)]" />
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_16%_26%,rgba(214,178,94,0.18),transparent_31%),radial-gradient(circle_at_72%_72%,rgba(34,211,238,0.16),transparent_34%)]" />
+        <div className="relative mx-auto flex min-h-[calc(100vh-4rem)] max-w-7xl items-center px-4 py-20 sm:px-6 lg:px-8">
+          <div className="w-full max-w-[22rem] min-w-0 sm:max-w-3xl">
             <p className="mb-6 inline-flex rounded border border-[#d6b25e]/30 bg-[#d6b25e]/10 px-3 py-1 text-sm text-[#f3d687]">
               Digital Energy Holdings
             </p>
-            <h1 className="max-w-4xl text-5xl font-semibold leading-tight text-white sm:text-6xl lg:text-7xl" style={{ textShadow: "0 24px 70px rgba(0,0,0,0.95)" }}>
+            <h1 className="max-w-[11ch] text-5xl font-semibold leading-tight text-white sm:max-w-3xl sm:text-6xl sm:leading-none lg:text-7xl" style={{ textShadow: "0 24px 70px rgba(0,0,0,0.95)" }}>
               Where compute becomes capital.
             </h1>
-            <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-100" style={{ textShadow: "0 12px 36px rgba(0,0,0,0.95)" }}>
+            <p className="mt-6 max-w-[21rem] text-base leading-7 text-slate-100 sm:max-w-2xl sm:text-lg sm:leading-8" style={{ textShadow: "0 12px 36px rgba(0,0,0,0.95)" }}>
               Digital Energy Holdings centralizes intellectual property,
               digital rights, brand systems, domains, AI workflows, contracts,
               shared services, and governed digital asset infrastructure behind
@@ -179,7 +144,6 @@ export default function Home() {
               ))}
             </div>
           </div>
-          <VaultVisual />
         </div>
       </section>
 
