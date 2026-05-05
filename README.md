@@ -42,6 +42,8 @@ MS_FROM_EMAIL=
 LEAD_TO_EMAIL=
 ```
 
+A non-secret reference template is available at `docs/environment.example.txt`.
+
 If Graph mail is not configured, the form returns a safe fallback message that
 directs visitors to the public contact email.
 
