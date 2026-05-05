@@ -273,6 +273,13 @@ export default function Home() {
                 <p className="text-sm text-[#f3d687]">{lane.role}</p>
                 <h3 className="mt-3 text-2xl font-semibold text-white">{lane.name}</h3>
                 <p className="mt-4 leading-7 text-slate-400">{lane.description}</p>
+                <Link
+                  className="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-[#f3d687] transition hover:text-white"
+                  href={lane.href}
+                >
+                  View lane
+                  <ArrowRight className="size-4" />
+                </Link>
               </article>
             ))}
           </div>
