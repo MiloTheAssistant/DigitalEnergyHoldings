@@ -64,10 +64,18 @@ npx vercel env add LEAD_TO_EMAIL production preview development
 
 ```bash
 npm run dev
+npm run dev:alt
 npm test
 npm run lint
 npm run build
 ```
+
+Local dev ports for this repository are locked to:
+
+- Normal: `3010`
+- Alternate / preview / debug: `3011`
+
+The full cross-project local port map is in `docs/local-port-map.md`.
 
 ## Deployment
 
