@@ -43,6 +43,8 @@ LEAD_TO_EMAIL=
 ```
 
 A non-secret reference template is available at `docs/environment.example.txt`.
+The full Microsoft Graph setup and troubleshooting runbook is in
+`docs/graph-contact-form.md`.
 
 If Graph mail is not configured, the form returns a safe fallback message that
 directs visitors to the public contact email.
