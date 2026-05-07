@@ -335,9 +335,21 @@ export default function Home() {
         <div className="mx-auto flex max-w-7xl flex-col gap-6 text-sm text-slate-400 md:flex-row md:items-center md:justify-between">
           <div>
             <p className="font-semibold text-white">{siteConfig.legalName}</p>
-            <p className="mt-2">
-              {siteConfig.email} | {siteConfig.phone}
-            </p>
+            <div className="mt-3 grid gap-1">
+              <p>
+                Contact email:{" "}
+                <a className="text-slate-100" href={`mailto:${siteConfig.email}`}>
+                  {siteConfig.email}
+                </a>
+              </p>
+              <p>
+                Contact phone:{" "}
+                <a className="text-slate-100" href="tel:+15735000064">
+                  {siteConfig.phone}
+                </a>
+              </p>
+              <p>Location: {siteConfig.location}</p>
+            </div>
           </div>
           <div className="flex flex-wrap gap-4">
             <Link href="/privacy">Privacy</Link>

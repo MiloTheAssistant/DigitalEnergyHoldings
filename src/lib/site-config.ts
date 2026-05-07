@@ -4,9 +4,9 @@ export const siteConfig = {
   shortName: "DEH",
   tagline: "Where compute becomes capital.",
   url: "https://digitalenergyholdings.com",
-  email: "Contact@DigitalEnergyHoldings.Com",
+  email: "contact@DigitalEnergyHoldings.com",
   phone: "(573) 500-0064",
-  location: "Eureka, MO / St. Louis Region",
+  location: "St. Louis, MO",
   description:
     "Digital Energy Holdings centralizes intellectual property, digital rights, brand systems, domains, AI workflows, contracts, shared services, and governed digital asset infrastructure for a modern operating ecosystem.",
   nav: [
