@@ -8,7 +8,10 @@ import {
   FileText,
   type LucideIcon,
 } from "lucide-react";
-import { ServiceStructuredData } from "@/components/structured-data";
+import {
+  FAQStructuredData,
+  ServiceStructuredData,
+} from "@/components/structured-data";
 import { siteConfig, type ecosystemLanes } from "@/lib/site-config";
 
 type EcosystemLane = (typeof ecosystemLanes)[number];
@@ -30,6 +33,7 @@ export function EcosystemLanePage({ lane }: { lane: EcosystemLane }) {
         name={lane.name}
         url={`${siteConfig.url}${lane.href}`}
       />
+      <FAQStructuredData questions={lane.faqs} />
       <section className="relative isolate overflow-hidden px-4 py-24 sm:px-6 lg:px-8">
         <div className="absolute inset-0 bg-[linear-gradient(115deg,rgba(5,6,8,0.98)_0%,rgba(9,13,20,0.92)_52%,rgba(15,36,43,0.82)_100%)]" />
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_18%_18%,rgba(214,178,94,0.16),transparent_30%),radial-gradient(circle_at_82%_18%,rgba(34,211,238,0.14),transparent_30%)]" />
@@ -90,6 +94,49 @@ export function EcosystemLanePage({ lane }: { lane: EcosystemLane }) {
             {lane.operatingSignals.map((signal) => (
               <article className="border border-white/10 bg-white/[0.04] p-5" key={signal}>
                 <p className="leading-7 text-slate-200">{signal}</p>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="border-y border-white/10 bg-[#090d14] px-4 py-24 sm:px-6 lg:px-8">
+        <div className="mx-auto grid max-w-7xl gap-10 lg:grid-cols-[0.72fr_1.28fr]">
+          <div>
+            <p className="text-sm font-semibold text-[#f3d687]">Direct answers</p>
+            <h2 className="mt-3 text-3xl font-semibold leading-tight sm:text-4xl">
+              Clear context for partners, search, and AI answer systems.
+            </h2>
+            <p className="mt-5 leading-7 text-slate-400">
+              These notes state what {lane.shortName} is, how it fits DEH, and
+              where the public boundaries are.
+            </p>
+          </div>
+          <div className="grid gap-4">
+            {lane.answerBlocks.map((item) => (
+              <article
+                className="border border-white/10 bg-[#050608] p-6"
+                key={item.title}
+              >
+                <h3 className="text-xl font-semibold text-white">{item.title}</h3>
+                <p className="mt-3 leading-7 text-slate-300">{item.body}</p>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="px-4 py-24 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-5xl">
+          <p className="text-sm font-semibold text-[#f3d687]">Common questions</p>
+          <h2 className="mt-3 text-3xl font-semibold leading-tight sm:text-4xl">
+            {`Answers about ${lane.shortName}.`}
+          </h2>
+          <div className="mt-10 grid gap-4">
+            {lane.faqs.map((item) => (
+              <article className="border border-white/10 bg-white/[0.04] p-6" key={item.question}>
+                <h3 className="text-xl font-semibold text-white">{item.question}</h3>
+                <p className="mt-3 leading-7 text-slate-300">{item.answer}</p>
               </article>
             ))}
           </div>

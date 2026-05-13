@@ -14,9 +14,43 @@ export const siteConfig = {
     { label: "Assets", href: "/#asset-layer" },
     { label: "Ecosystem", href: "/#ecosystem" },
     { label: "Digital Assets", href: "/digital-assets" },
+    { label: "FAQ", href: "/faq" },
     { label: "Contact", href: "/#contact" },
   ],
 };
+
+export const frequentlyAskedQuestions = [
+  {
+    question: "What is Digital Energy Holdings?",
+    answer:
+      "Digital Energy Holdings, LLC is the asset and systems layer for a modern operating ecosystem. It centralizes intellectual property, digital rights, brand systems, domains, AI workflows, contracts, shared services, and governed digital asset infrastructure.",
+  },
+  {
+    question: "What does Digital Energy Holdings own or manage?",
+    answer:
+      "DEH organizes company-owned brands, websites, domains, digital rights, AI workflow assets, automation systems, contracts, shared operating services, and governed digital asset infrastructure. Specific private legal, banking, custody, wallet, equipment, and treasury records are not published on the public website.",
+  },
+  {
+    question: "What are the public ecosystem lanes?",
+    answer:
+      "The public lanes are Digital Energy Compute Solutions, Digital Energy AI Concepts, Digital Energy Media, and St. Louis Creations. Each lane serves a different operating function while staying connected to the DEH asset and systems layer.",
+  },
+  {
+    question: "Is Digital Energy Holdings an investment company, exchange, custodian, or bank?",
+    answer:
+      "No. The website is informational and does not present DEH as an investment offering, fund, broker, exchange, custodian, bank, investment adviser, or financial product platform.",
+  },
+  {
+    question: "How should banks, CPAs, vendors, or partners contact DEH?",
+    answer:
+      `Use the official company contact channel: ${siteConfig.email} or ${siteConfig.phone}. Inquiries should identify whether they relate to banking, accounting, vendor work, brand or licensing, operating-company activity, AI and automation, media, compute, or digital assets.`,
+  },
+  {
+    question: "How does DEH describe digital assets publicly?",
+    answer:
+      "DEH describes Bitcoin, mining, node participation, and company-owned digital assets as governed digital energy and infrastructure context. Public content avoids private custody details, wallet details, equipment locations, account names, and investment recommendations.",
+  },
+] as const;
 
 export const inquiryTypeOptions = [
   "Banking or credit inquiry",
@@ -52,6 +86,32 @@ export const ecosystemLanes = [
       "Compute activity is documented as company infrastructure",
       "Treasury posture is governed, not promoted",
     ],
+    answerBlocks: [
+      {
+        title: "What this lane does",
+        body: "Digital Energy Compute Solutions gives DEH a practical lane for Bitcoin-aware compute infrastructure, hosted and local mining literacy, full-node participation, and energy-aware systems thinking.",
+      },
+      {
+        title: "How it should be understood",
+        body: "This lane is not presented as an investment product or public mining offer. It explains operational capability, governance, and infrastructure fluency inside the broader holding-company structure.",
+      },
+      {
+        title: "What stays private",
+        body: "Wallet details, custody arrangements, equipment locations, account names, counterparties, hash rates, and treasury records stay off the public website.",
+      },
+    ],
+    faqs: [
+      {
+        question: "Does Digital Energy Compute Solutions offer investment advice?",
+        answer:
+          "No. Digital Energy Compute Solutions is described as company infrastructure and operational capability, not investment, brokerage, custody, exchange, or advisory activity.",
+      },
+      {
+        question: "Why does DEH operate a compute lane?",
+        answer:
+          "The compute lane helps DEH understand Bitcoin infrastructure, mining operations, full-node participation, and digital energy systems through practical operational exposure.",
+      },
+    ],
   },
   {
     name: "Digital Energy AI Concepts™",
@@ -74,6 +134,32 @@ export const ecosystemLanes = [
       "Use AI where it reduces friction or increases quality",
       "Keep human review on consequential decisions",
       "Document repeatable workflows before scaling them",
+    ],
+    answerBlocks: [
+      {
+        title: "What this lane does",
+        body: "Digital Energy AI Concepts designs practical AI workflows, automation rails, agent-assisted operations, and internal knowledge systems for businesses that need reliable execution.",
+      },
+      {
+        title: "How it should be used",
+        body: "The lane focuses on specific operating problems: mapping workflows, reducing repetitive work, improving review loops, and turning internal knowledge into repeatable processes.",
+      },
+      {
+        title: "What makes it governed",
+        body: "Human review stays attached to consequential decisions, and each workflow is documented before it is scaled or reused across the ecosystem.",
+      },
+    ],
+    faqs: [
+      {
+        question: "What kind of AI work does Digital Energy AI Concepts handle?",
+        answer:
+          "It handles workflow design, automation mapping, agent-assisted operations, internal knowledge systems, and practical AI implementation tied to real business processes.",
+      },
+      {
+        question: "Does the AI lane replace human decision-making?",
+        answer:
+          "No. The AI lane is designed to reduce friction and improve consistency while keeping human review on consequential decisions.",
+      },
     ],
   },
   {
@@ -98,6 +184,32 @@ export const ecosystemLanes = [
       "Campaign work connects to business workflows",
       "Creative output is paired with distribution discipline",
     ],
+    answerBlocks: [
+      {
+        title: "What this lane does",
+        body: "Digital Energy Media turns websites, sales assets, social media, campaigns, and content systems into a managed growth layer for DEH and related operating properties.",
+      },
+      {
+        title: "How it supports operations",
+        body: "Media work is treated as infrastructure: brand assets are organized, messages stay tied to business workflows, and campaign output is built for reuse instead of one-off production.",
+      },
+      {
+        title: "Why it matters for visibility",
+        body: "A structured media lane makes public company signals easier for customers, partners, search engines, and AI answer systems to understand and cite.",
+      },
+    ],
+    faqs: [
+      {
+        question: "What does Digital Energy Media produce?",
+        answer:
+          "Digital Energy Media produces websites, landing pages, campaign systems, sales enablement assets, social content, and digital presence infrastructure.",
+      },
+      {
+        question: "Is Digital Energy Media only an agency lane?",
+        answer:
+          "No. It can support agency-style work, but inside DEH it also operates as a reusable media and growth system for the broader company ecosystem.",
+      },
+    ],
   },
   {
     name: "St. Louis Creations™",
@@ -120,6 +232,32 @@ export const ecosystemLanes = [
       "Digital designs become controlled physical outputs",
       "Custom production is supported by repeatable systems",
       "Local service work benefits from centralized brand assets",
+    ],
+    answerBlocks: [
+      {
+        title: "What this lane does",
+        body: "St. Louis Creations connects design, fabrication, 3D printing, laser engraving, and custom production to DEH's digital asset and brand systems.",
+      },
+      {
+        title: "How it fits DEH",
+        body: "The lane turns digital design assets into controlled physical outputs while benefiting from shared systems for brand, media, process, and customer communication.",
+      },
+      {
+        title: "Who it serves",
+        body: "The lane supports local creative production, prototypes, personalized goods, custom fabrication, and design-to-object workflows.",
+      },
+    ],
+    faqs: [
+      {
+        question: "What services does St. Louis Creations provide?",
+        answer:
+          "St. Louis Creations provides custom fabrication, 3D printed products and prototypes, laser engraving, customization, and local creative production services.",
+      },
+      {
+        question: "Why is St. Louis Creations part of DEH?",
+        answer:
+          "It connects physical production to the same digital asset layer that governs brand assets, design files, media systems, and operating workflows.",
+      },
     ],
   },
 ] as const;
@@ -146,6 +284,13 @@ export const publicPages = [
     description: lane.summary,
     priority: 0.85,
   })),
+  {
+    path: "/faq",
+    title: "FAQ",
+    description:
+      "Direct answers for banks, CPAs, vendors, partners, and AI/search systems about Digital Energy Holdings.",
+    priority: 0.8,
+  },
   {
     path: "/privacy",
     title: "Privacy Policy",

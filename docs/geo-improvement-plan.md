@@ -14,9 +14,9 @@ Improve Digital Energy Holdings visibility and citability across ChatGPT, Claude
 
 ## Phase 2: Citation-Ready Content
 
-- Add a practical FAQ page for bankers, CPAs, vendors, partners, and operating-company inquiries.
-- Add one deeper explanation page per lane with direct answers, definitions, boundaries, and examples.
-- Add concise page summaries near the top of each key page so AI systems can extract complete answers without stitching unrelated sections together.
+- Add a practical FAQ page for bankers, CPAs, vendors, partners, and operating-company inquiries. **Implemented May 13, 2026.**
+- Add one deeper explanation section per lane with direct answers, definitions, boundaries, and examples. **Implemented May 13, 2026.**
+- Add concise page summaries near the top of each key page so AI systems can extract complete answers without stitching unrelated sections together. **Implemented on lane pages May 13, 2026.**
 
 ## Phase 3: Authority Signals
 

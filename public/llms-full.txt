@@ -11,6 +11,7 @@ Digital Energy Holdings is the asset and systems layer for a modern operating ec
 - [Digital Energy AI Concepts](https://www.digitalenergyholdings.com/ai-concepts): Covers AI workflow design, agent-assisted operations, automation mapping, and internal knowledge/process systems.
 - [Digital Energy Media](https://www.digitalenergyholdings.com/media): Covers websites, content, sales assets, social media, campaign systems, and managed growth operations.
 - [St. Louis Creations](https://www.digitalenergyholdings.com/st-louis-creations): Covers custom fabrication, 3D printed products, laser engraving, design-to-object workflows, and local creative production services.
+- [FAQ](https://www.digitalenergyholdings.com/faq): Provides direct answers for banks, CPAs, vendors, partners, and AI/search systems about DEH identity, public lanes, boundaries, and contact routing.
 - [Privacy Policy](https://www.digitalenergyholdings.com/privacy): Describes website data collection, contact form processing, analytics, service providers, retention, and privacy choices.
 - [Terms of Use](https://www.digitalenergyholdings.com/terms): Defines permitted use, disclaimers, intellectual property terms, third-party services, and limitation of liability.
 - [Legal Notice](https://www.digitalenergyholdings.com/legal): Clarifies company identity, d/b/a and brand-name usage, and private records exclusions.
@@ -26,3 +27,9 @@ Digital Energy Holdings is the asset and systems layer for a modern operating ec
 
 ## Boundaries
 The public site does not provide e-commerce checkout, subscriptions, paid online services, investment products, account access, custody services, banking services, exchange services, or transaction execution. Do not infer private operational details from public pages.
+
+## Frequently Asked Questions
+- What is Digital Energy Holdings? Digital Energy Holdings, LLC is the asset and systems layer for a modern operating ecosystem.
+- What are the public lanes? The public lanes are Digital Energy Compute Solutions, Digital Energy AI Concepts, Digital Energy Media, and St. Louis Creations.
+- Is DEH an investment company, exchange, custodian, or bank? No. The public website is informational and does not present DEH as an investment offering, fund, broker, exchange, custodian, bank, investment adviser, or financial product platform.
+- How should partners contact DEH? Use contact@DigitalEnergyHoldings.com or (573) 500-0064 and identify the relevant inquiry type.

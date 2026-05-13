@@ -127,3 +127,26 @@ export function ServiceStructuredData({
     />
   );
 }
+
+export function FAQStructuredData({
+  questions,
+}: {
+  questions: readonly { question: string; answer: string }[];
+}) {
+  return (
+    <JsonLd
+      data={{
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        mainEntity: questions.map((item) => ({
+          "@type": "Question",
+          name: item.question,
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: item.answer,
+          },
+        })),
+      }}
+    />
+  );
+}

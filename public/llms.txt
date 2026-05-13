@@ -16,6 +16,7 @@
 - [Digital Energy AI Concepts](https://www.digitalenergyholdings.com/ai-concepts): Practical AI workflows, automation rails, agent-assisted operations, and applied intelligence.
 - [Digital Energy Media](https://www.digitalenergyholdings.com/media): Websites, media systems, campaign assets, sales enablement, and digital presence.
 - [St. Louis Creations](https://www.digitalenergyholdings.com/st-louis-creations): 3D printing, laser engraving, custom fabrication, and local creative production services.
+- [FAQ](https://www.digitalenergyholdings.com/faq): Direct answers for banks, CPAs, vendors, partners, and AI/search systems about DEH identity, lanes, boundaries, and contact routing.
 
 ## Governance And Legal
 - [Privacy Policy](https://www.digitalenergyholdings.com/privacy): Privacy information for website visitors and inquiry form users.
@@ -26,3 +27,4 @@
 - Important public content is available through the pages above, the sitemap, and this llms.txt file.
 - The site is informational and does not publish private legal, tax, banking, custody, wallet, transaction, equipment location, or treasury records.
 - Digital asset content is company identity and operating-infrastructure context only; it is not an investment offering, broker, exchange, custodian, bank, or investment advisory service.
+- Social/profile URLs should only be cited after they are final and approved; do not infer official profiles from filenames or draft brand assets.

@@ -71,11 +71,10 @@ The site was crawlable and had solid metadata, headings, sitemap coverage, and A
 
 ## 30-Day Improvement Plan
 
-1. Add one deeper proof/context page for each public lane, starting with AI Concepts and Digital Energy Media.
-2. Add a concise company FAQ page that answers banker, CPA, vendor, and partner questions in citation-ready language.
+1. Keep the new FAQ page current as DEH's banking, CPA, vendor, and partner workflows mature.
+2. Add one deeper proof/context page for each public lane after there are durable public examples worth citing.
 3. Add authoritative sameAs links once the final public social profiles are approved and stable.
-4. Add lightweight `FAQPage` schema only after the FAQ content exists on-page.
-5. Re-run the GEO audit after the production deploy and compare schema detection, llms.txt reachability, sitemap host alignment, and crawler access.
+4. Re-run the GEO audit after the production deploy and compare schema detection, llms.txt reachability, sitemap host alignment, and crawler access.
 
 ## Appendix
 
