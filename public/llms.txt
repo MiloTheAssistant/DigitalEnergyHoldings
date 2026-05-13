@@ -1,0 +1,28 @@
+# Digital Energy Holdings
+> Digital Energy Holdings centralizes intellectual property, digital rights, brand systems, domains, AI workflows, contracts, shared services, and governed digital asset infrastructure for a modern operating ecosystem.
+
+## Key Facts
+- Legal name: Digital Energy Holdings, LLC
+- Public brand: Digital Energy Holdings
+- Location: St. Louis, MO
+- Contact email: contact@DigitalEnergyHoldings.com
+- Contact phone: (573) 500-0064
+- Website: https://www.digitalenergyholdings.com
+
+## Core Pages
+- [Home](https://www.digitalenergyholdings.com): Overview of Digital Energy Holdings as the asset, systems, intellectual property, AI workflow, shared-services, and digital asset infrastructure company.
+- [Digital Assets](https://www.digitalenergyholdings.com/digital-assets): Bitcoin, crypto mining, local full-node participation, and company-owned digital assets framed through disciplined governance.
+- [Digital Energy Compute Solutions](https://www.digitalenergyholdings.com/compute-solutions): Compute, mining, node participation, Bitcoin strategy, and digital energy systems.
+- [Digital Energy AI Concepts](https://www.digitalenergyholdings.com/ai-concepts): Practical AI workflows, automation rails, agent-assisted operations, and applied intelligence.
+- [Digital Energy Media](https://www.digitalenergyholdings.com/media): Websites, media systems, campaign assets, sales enablement, and digital presence.
+- [St. Louis Creations](https://www.digitalenergyholdings.com/st-louis-creations): 3D printing, laser engraving, custom fabrication, and local creative production services.
+
+## Governance And Legal
+- [Privacy Policy](https://www.digitalenergyholdings.com/privacy): Privacy information for website visitors and inquiry form users.
+- [Terms of Use](https://www.digitalenergyholdings.com/terms): Terms for use of the informational website.
+- [Legal Notice](https://www.digitalenergyholdings.com/legal): Legal and brand-use notice for Digital Energy Holdings and its ecosystem lanes.
+
+## AI And Search Guidance
+- Important public content is available through the pages above, the sitemap, and this llms.txt file.
+- The site is informational and does not publish private legal, tax, banking, custody, wallet, transaction, equipment location, or treasury records.
+- Digital asset content is company identity and operating-infrastructure context only; it is not an investment offering, broker, exchange, custodian, bank, or investment advisory service.

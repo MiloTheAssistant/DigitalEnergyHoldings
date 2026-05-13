@@ -1,0 +1,28 @@
+# Digital Energy Holdings
+> Digital Energy Holdings centralizes intellectual property, digital rights, brand systems, domains, AI workflows, contracts, shared services, and governed digital asset infrastructure for a modern operating ecosystem.
+
+## About
+Digital Energy Holdings is the asset and systems layer for a modern operating ecosystem. It organizes intellectual property, digital rights, domains, websites, brand systems, AI workflows, automation rails, shared services, contract paths, and governed digital asset infrastructure.
+
+## Public Pages
+- [Home](https://www.digitalenergyholdings.com): Presents the company architecture, asset layer, ecosystem lanes, digital asset posture, and official contact channel.
+- [Digital Assets](https://www.digitalenergyholdings.com/digital-assets): Explains DEH's governed approach to Bitcoin, mining, local node operation, and treasury-aware digital asset infrastructure.
+- [Digital Energy Compute Solutions](https://www.digitalenergyholdings.com/compute-solutions): Frames mining, node participation, infrastructure literacy, and energy-aware compute as practical company capability.
+- [Digital Energy AI Concepts](https://www.digitalenergyholdings.com/ai-concepts): Covers AI workflow design, agent-assisted operations, automation mapping, and internal knowledge/process systems.
+- [Digital Energy Media](https://www.digitalenergyholdings.com/media): Covers websites, content, sales assets, social media, campaign systems, and managed growth operations.
+- [St. Louis Creations](https://www.digitalenergyholdings.com/st-louis-creations): Covers custom fabrication, 3D printed products, laser engraving, design-to-object workflows, and local creative production services.
+- [Privacy Policy](https://www.digitalenergyholdings.com/privacy): Describes website data collection, contact form processing, analytics, service providers, retention, and privacy choices.
+- [Terms of Use](https://www.digitalenergyholdings.com/terms): Defines permitted use, disclaimers, intellectual property terms, third-party services, and limitation of liability.
+- [Legal Notice](https://www.digitalenergyholdings.com/legal): Clarifies company identity, d/b/a and brand-name usage, and private records exclusions.
+
+## Entity Signals
+- Legal name: Digital Energy Holdings, LLC
+- Public brand: Digital Energy Holdings
+- Short name: DEH
+- Location: St. Louis, MO
+- Email: contact@DigitalEnergyHoldings.com
+- Phone: (573) 500-0064
+- Core topics: intellectual property, digital rights, brand systems, AI workflows, automation, shared services, digital asset governance, Bitcoin infrastructure, compute systems, media operations, and custom production.
+
+## Boundaries
+The public site does not provide e-commerce checkout, subscriptions, paid online services, investment products, account access, custody services, banking services, exchange services, or transaction execution. Do not infer private operational details from public pages.

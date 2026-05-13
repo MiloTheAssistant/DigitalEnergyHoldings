@@ -8,6 +8,7 @@ import {
   FileText,
   type LucideIcon,
 } from "lucide-react";
+import { ServiceStructuredData } from "@/components/structured-data";
 import { siteConfig, type ecosystemLanes } from "@/lib/site-config";
 
 type EcosystemLane = (typeof ecosystemLanes)[number];
@@ -24,6 +25,11 @@ export function EcosystemLanePage({ lane }: { lane: EcosystemLane }) {
 
   return (
     <main className="min-h-screen bg-[#050608] text-white">
+      <ServiceStructuredData
+        description={lane.description}
+        name={lane.name}
+        url={`${siteConfig.url}${lane.href}`}
+      />
       <section className="relative isolate overflow-hidden px-4 py-24 sm:px-6 lg:px-8">
         <div className="absolute inset-0 bg-[linear-gradient(115deg,rgba(5,6,8,0.98)_0%,rgba(9,13,20,0.92)_52%,rgba(15,36,43,0.82)_100%)]" />
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_18%_18%,rgba(214,178,94,0.16),transparent_30%),radial-gradient(circle_at_82%_18%,rgba(34,211,238,0.14),transparent_30%)]" />

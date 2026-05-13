@@ -1,17 +1,13 @@
 import type { MetadataRoute } from "next";
-import { ecosystemRoutes, siteConfig } from "@/lib/site-config";
+import { publicPages, siteConfig } from "@/lib/site-config";
+
+const lastModified = new Date();
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  return [
-    "",
-    "/digital-assets",
-    ...ecosystemRoutes,
-    "/privacy",
-    "/terms",
-    "/legal",
-    "/thank-you",
-  ].map((path) => ({
-      url: `${siteConfig.url}${path}`,
-      lastModified: new Date(),
-    }));
+  return publicPages.map((page) => ({
+    url: `${siteConfig.url}${page.path}`,
+    lastModified,
+    changeFrequency: page.priority >= 0.8 ? "monthly" : "yearly",
+    priority: page.priority,
+  }));
 }

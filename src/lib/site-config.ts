@@ -3,7 +3,7 @@ export const siteConfig = {
   legalName: "Digital Energy Holdings, LLC",
   shortName: "DEH",
   tagline: "Where compute becomes capital.",
-  url: "https://digitalenergyholdings.com",
+  url: "https://www.digitalenergyholdings.com",
   email: "contact@DigitalEnergyHoldings.com",
   phone: "(573) 500-0064",
   location: "St. Louis, MO",
@@ -125,6 +125,68 @@ export const ecosystemLanes = [
 ] as const;
 
 export const ecosystemRoutes = ecosystemLanes.map((lane) => lane.href);
+
+export const publicPages = [
+  {
+    path: "",
+    title: "Digital Energy Holdings",
+    description: siteConfig.description,
+    priority: 1,
+  },
+  {
+    path: "/digital-assets",
+    title: "Digital Assets",
+    description:
+      "Bitcoin, crypto mining, local full-node participation, and company-owned digital assets framed through disciplined governance.",
+    priority: 0.9,
+  },
+  ...ecosystemLanes.map((lane) => ({
+    path: lane.href,
+    title: lane.name,
+    description: lane.summary,
+    priority: 0.85,
+  })),
+  {
+    path: "/privacy",
+    title: "Privacy Policy",
+    description:
+      "Privacy policy for Digital Energy Holdings website visitors and inquiry form users.",
+    priority: 0.3,
+  },
+  {
+    path: "/terms",
+    title: "Terms of Use",
+    description:
+      "Terms of use for the Digital Energy Holdings informational website.",
+    priority: 0.3,
+  },
+  {
+    path: "/legal",
+    title: "Legal Notice",
+    description: "Legal and brand-use notice for Digital Energy Holdings.",
+    priority: 0.3,
+  },
+  {
+    path: "/thank-you",
+    title: "Thank You",
+    description: "Confirmation page for Digital Energy Holdings inquiries.",
+    priority: 0.1,
+  },
+] as const;
+
+export const aiCrawlerUserAgents = [
+  "OAI-SearchBot",
+  "GPTBot",
+  "ChatGPT-User",
+  "ClaudeBot",
+  "Claude-SearchBot",
+  "Claude-User",
+  "PerplexityBot",
+  "Googlebot",
+  "Google-Extended",
+  "GoogleOther",
+  "Bingbot",
+] as const;
 
 export function getEcosystemLane(slug: string) {
   return ecosystemLanes.find((lane) => lane.slug === slug);

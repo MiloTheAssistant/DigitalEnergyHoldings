@@ -62,9 +62,14 @@ function Header() {
     <header className="fixed inset-x-0 top-0 z-50 border-b border-white/10 bg-[#050608]/85 backdrop-blur-xl">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
         <Link className="flex items-center gap-3" href="/">
-          <span className="grid size-9 place-items-center rounded border border-[#d6b25e]/40 bg-[#d6b25e]/10 text-sm font-semibold text-[#f3d687]">
-            DEH
-          </span>
+          <NextImage
+            alt="Digital Energy Holdings profile mark"
+            className="size-11 shrink-0 rounded-lg border border-[#d6b25e]/35 bg-black/70 object-cover shadow-[0_0_28px_rgba(214,178,94,0.18)]"
+            height={44}
+            priority
+            src="/brand/website-profile/deh-main-profile-stamp.png"
+            width={44}
+          />
           <span className="text-sm font-semibold text-white">
             Digital Energy Holdings
           </span>
@@ -94,7 +99,7 @@ export default function Home() {
       <Header />
       <section className="relative isolate min-h-screen overflow-hidden pt-16">
         <NextImage
-          alt=""
+          alt="Digital Energy Holdings command center visual for digital asset and AI operations"
           className="object-cover object-center opacity-72"
           fill
           priority
